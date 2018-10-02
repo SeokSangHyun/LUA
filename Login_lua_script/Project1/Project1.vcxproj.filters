@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="LuaScript">
+      <UniqueIdentifier>{787d6465-d687-45df-ad87-437ab3f79ac1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CLogIn">
+      <UniqueIdentifier>{1882a7d6-12ea-4fef-8d11-a546ee5b1bef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CMember">
+      <UniqueIdentifier>{d75a2a7b-9f7e-4d1a-9de0-c41e2fbff2f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CManager">
+      <UniqueIdentifier>{c6bd5139-5602-4c6f-960f-9cac84887adb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LUA">
+      <UniqueIdentifier>{da9c6f2a-8288-469f-8314-c2bc53a3cc6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CField">
+      <UniqueIdentifier>{ce7c21fc-f076-426c-a685-d500f5c5614a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="LuaScript\lauxlib.h">
+      <Filter>LuaScript</Filter>
+    </ClInclude>
+    <ClInclude Include="LuaScript\lua.h">
+      <Filter>LuaScript</Filter>
+    </ClInclude>
+    <ClInclude Include="LuaScript\lua.hpp">
+      <Filter>LuaScript</Filter>
+    </ClInclude>
+    <ClInclude Include="LuaScript\luaconf.h">
+      <Filter>LuaScript</Filter>
+    </ClInclude>
+    <ClInclude Include="LuaScript\lualib.h">
+      <Filter>LuaScript</Filter>
+    </ClInclude>
+    <ClInclude Include="CLogIn.h">
+      <Filter>CLogIn</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="LuaScript_API.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="CMember.h">
+      <Filter>CMember</Filter>
+    </ClInclude>
+    <ClInclude Include="CManager.h">
+      <Filter>CManager</Filter>
+    </ClInclude>
+    <ClInclude Include="CField.h">
+      <Filter>CField</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="test.lua">
+      <Filter>LUA</Filter>
+    </None>
+    <None Include="lua_Manager.lua">
+      <Filter>LUA</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="CLogIn.cpp">
+      <Filter>CLogIn</Filter>
+    </ClCompile>
+    <ClCompile Include="LuaScript_API.cpp">
+      <Filter>헤더 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="CMember.cpp">
+      <Filter>CMember</Filter>
+    </ClCompile>
+    <ClCompile Include="CManager.cpp">
+      <Filter>CManager</Filter>
+    </ClCompile>
+    <ClCompile Include="CField.cpp">
+      <Filter>CField</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
